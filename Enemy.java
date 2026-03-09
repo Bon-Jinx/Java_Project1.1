@@ -4,3 +4,12 @@ class Enemy extends Character {
         super(name, health);
     }
 }
+
+class EnemyAI {
+
+    public void takeTurn(Enemy enemy, Player player) {
+
+        Attack attack = new Attack();
+        attack.execute(enemy, player);
+    }
+}

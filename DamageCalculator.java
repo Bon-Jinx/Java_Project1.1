@@ -1,3 +1,5 @@
+import java.util.Random;
+
 class DamageCalculator {
 
     public static int calculateDamage() {
